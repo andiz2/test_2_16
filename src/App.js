@@ -64,7 +64,7 @@ const App = () => {
         //
         console.log('persons din validpers', persons)
         //console.log('persons din validpers', response.status)
-        console.log('persons din validpers', response.data)
+        //console.log('persons din validpers', response.data)
         console.log('response din validpers', response)
       })
     } else {

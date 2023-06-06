@@ -10,8 +10,8 @@ const create = newObject => {
   const request = axios.post(baseUrl, newObject)
   console.log('request create', request)
   return request.then(response => {
-  		console.log('request create response', response)
-  		console.log('request create response.data', response.data)
+  		//console.log('request create response', response)
+  		//console.log('request create response.data', response.data)
   	}
   )}
 
