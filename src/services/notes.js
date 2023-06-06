@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'https://mocki.io/v1/ffe1896c-1a3a-4ea1-8cdf-bb7d05af7ff4'
+const baseUrl = 'https://test-api-dg4a.onrender.com/persons'
 
 const getAll = () => {
   const request = axios.get(baseUrl)
