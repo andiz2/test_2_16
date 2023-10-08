@@ -30,7 +30,7 @@ const App = () => {
       .then(initialPersons => {
         setPersons(initialPersons)
       })
-  }, [persons])
+  }, [persons.length])
 
   const addPerson = (event) => {
     event.preventDefault()
